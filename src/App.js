@@ -18,6 +18,7 @@ function App() {
 
     <BrowserRouter>
       <Switch>
+      <Route exact path="/" component={Splash} />   
         <Route exact path="/splash" component={Splash} />        
         <Route exact path="/search" component={Search} />        
         <Route exact path="/weight/:current" component={Weight} />        
